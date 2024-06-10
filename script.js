@@ -35,3 +35,7 @@ document
     // Redirect to the main blog page
     window.location.href = "index.html"; // Change this to the actual path of your main blog page
   });
+/* Event Listener for Toggle Button*/
+document.getElementById("mode-toggle").addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
+});

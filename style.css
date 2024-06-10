@@ -47,4 +47,39 @@ h1 {
   margin-top: 20px;
 }
 
+/* Styling for Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
 
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #ff8c00d5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #c1c4c7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.btn:hover, .toggle-btn:hover {
+  background-color: #0056b3;
+}

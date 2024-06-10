@@ -30,8 +30,30 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin-bottom: 10px;
         }
         .submit-button:hover {
             background-color: #10bb35;
         }
-    
+//* add Button Dark Mode*//
+        .toggle-btn {
+            display: inline-block;
+            padding: 15px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: #c1c4c7;
+            border: none;
+            border-radius: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            }
+        .dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+            }
+
+        .btn:hover, .toggle-btn:hover {
+            background-color: #f5f06c;
+            }

@@ -32,10 +32,14 @@ document.addEventListener("DOMContentLoaded", function () {
     postsContainer.innerHTML = "<p>No posts available.</p>";
   }
 
-  // Optionally, add an event listener to the button to redirect to the form page
+  // add an event listener to the button to redirect to the form page
   document
     .getElementById("add-post-btn")
     .addEventListener("click", function () {
       window.location.href = "form.html"; // Change 'form.html' to the actual path of your form page
     });
+});
+/* Event Listener for Toggle Button*/
+document.getElementById("mode-toggle").addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
 });
